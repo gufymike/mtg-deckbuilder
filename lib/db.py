@@ -5,7 +5,7 @@ DBHOST = 'localhost'
 DBPORT = 5432
 DBNAME = 'mtgdb'
 DBUSERNAME = 'postgres'
-DBPASS = 'wh0am1'
+DBPASS = ''
 
 def setupDB(driver=DBDRIVER, host=DBHOST, dbname=DBNAME, port=DBPORT, user=DBUSERNAME, pw=DBPASS):
 	db = sql.QSqlDatabase(driver)
